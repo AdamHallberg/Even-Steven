@@ -4,40 +4,39 @@
 #include <stdexcept>
 #include <string>
 
-
 class Person
 {
 
     public:
 
-        Person(std::string n = "unnamed", float e = 0);
+        Person(std::string n = "unnamed", int e = 0);
 
-        float get_debt      () const;
-        float get_expence   () const;
+        int get_debt      () const;
+        int get_expence   () const;
 
-        void update_debt    (float);
-        void update_expence (float);
+        void update_debt    (int);
+        void update_expence (int);
 
     private:
 
         std::string name{};
-        float expence{};
-        float debt{};
+        int expence{};
+        int debt{};
 };
 
 class Bank
 {
     public:
 
-        Bank(float t = 0);
+        Bank(int t = 0);
 
         //void calculate_total();
 
-        float get_expences();
+        int get_expences();
 
     private:
 
-        float tot_expences{};
+        int tot_expences{};
 };
 
 
