@@ -38,7 +38,7 @@ int CSVReader::col_sum(long unsigned int col) const
         for (long unsigned int i{}; i < nr_rows; i++)
             {
                 //sum += data[i][col];
-                col++;
+                col++; 
             }
         return sum;
     }
