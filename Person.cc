@@ -1,11 +1,13 @@
-#include "steven.h"
+#include "Person.h"
+
+using namespace std;
 
 Person::Person(std::string n, int e)
 :name{n}, expence{e}, debt{0}
 //  ----------------------
 {}
 
-void Person::get_name()
+string Person::get_name()
 {
     return name;
 }
@@ -13,7 +15,7 @@ void Person::get_name()
 void Person::update_debt(int cost)
 //  ----------------------
 {
-    debt -= cost;
+    debt += cost;
 }
 
 int Person::get_debt() const

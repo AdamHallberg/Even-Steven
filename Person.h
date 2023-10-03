@@ -13,7 +13,7 @@ class Person
 
         int get_debt      () const;
         int get_expence   () const;
-        int get_name      () const;
+        std::string get_name      () const;
 
         void update_debt    (int);
         void update_expence (int);
