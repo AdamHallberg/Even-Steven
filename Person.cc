@@ -7,7 +7,7 @@ Person::Person(std::string n, int e)
 //  ----------------------
 {}
 
-string Person::get_name()
+string Person::get_name() const
 {
     return name;
 }
