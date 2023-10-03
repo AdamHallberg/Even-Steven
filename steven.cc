@@ -16,7 +16,7 @@ int Bank::get_expences()
     return tot_expences;
 }
 
-void Person::get_name();
+void Person::get_name()
 {
     return name;
 }
