@@ -9,20 +9,20 @@ class Person
 
     public:
 
-        Person(std::string n = "unnamed", int e = 0);
+        Person(std::string n = "unnamed", float e = 0);
 
-        int get_debt      () const;
-        int get_expence   () const;
+        float get_debt      () const;
+        float get_expence   () const;
         std::string get_name      () const;
 
-        void update_debt    (int);
-        void update_expence (int);
+        void update_debt    (float);
+        void update_expence (float);
 
     private:
 
         std::string name{};
-        int expence{};
-        int debt{};
+        float expence{};
+        float debt{};
 };
 
 

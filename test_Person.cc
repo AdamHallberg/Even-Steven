@@ -1,5 +1,5 @@
-#include "steven.h"
-#include "steven.h"
+#include "Person.h"
+#include "Person.h"
 #include "catch.hpp"
 
 TEST_CASE("Person class")
