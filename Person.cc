@@ -1,4 +1,4 @@
-#include "steven.h"
+#include "Person.h"
 
 Person::Person(std::string n, int e)
 :name{n}, expence{e}, debt{0}

@@ -1,5 +1,5 @@
-#ifndef STEVEN_H
-#define STEVEN_H
+#ifndef PERSON_H
+#define PERSON_H
 
 #include <stdexcept>
 #include <string>
@@ -26,4 +26,4 @@ class Person
 };
 
 
-#endif  //STEVEN_H
+#endif  //PERSON_H
