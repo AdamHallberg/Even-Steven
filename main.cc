@@ -18,8 +18,6 @@ void budget_test_function()
     std::vector<Person> person_list;
     
     reader.read();
-    reader.stoi_on_col(1);
-
 
     data = reader.getData();
 
